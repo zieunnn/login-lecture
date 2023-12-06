@@ -16,7 +16,9 @@ const login = () => {
       "Content-Type": "application/json"
     },
     body: JSON.stringify(req),
-  });
+  })
+  .then((res) => res.json())
+  .then(console.log);
 }
 
-loginBtn.addEventListener("click", login);
+loginBtn.addEventListener("click", login).then;
