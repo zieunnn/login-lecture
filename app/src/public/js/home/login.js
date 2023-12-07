@@ -31,4 +31,4 @@ const login = () => {
   });
 }
 
-loginBtn.addEventListener("click", login).then;
+loginBtn.addEventListener("click", login);
